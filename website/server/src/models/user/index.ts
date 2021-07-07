@@ -9,6 +9,7 @@ interface User{
 
 export class Users extends Model<User> {}
 
+//Create Table
 Users.init(
     {
         id: {
